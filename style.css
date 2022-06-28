@@ -37,8 +37,9 @@ body{
 /* EACH PRODUCT BOX */
 .product{
     /*border-color: black;*/
-    margin-top: 60px;
-    margin-bottom: 60px;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 /* **************** */
@@ -51,6 +52,7 @@ body{
     /*border-color: chartreuse;*/
     padding: 10px;
     font-size: 1rem;
+
 }
 .image{
     display: block;
@@ -61,11 +63,8 @@ body{
 
 /* *************************** */
 /* PRODUCT DESCRIPTION DETAILS */
-.specification{
-    padding: 20px 0px 0px 0px;
-}
-.price_0{
-    padding: 20px 0px 0px 0px;    
+.top_space{
+    padding: 40px 0px 0px 0px;     
 }
 .bold{
     font-weight: bold;
@@ -94,10 +93,18 @@ table{
     border-style: solid;
     border-color: white;
     color: white;
-    background-color: #808080;
+    background-color: #262626;
     box-shadow: 5px 5px 0.5px #808080;
 }
-
+.price{
+    font-size: smaller;
+    color: #535353;
+    font-weight: bold;
+}
+.bullet{
+    color: crimson;
+    font-weight: bold;
+}
 
 
 
