@@ -8,14 +8,33 @@
     zoom: 1.0
 }
 
-.center{
+*{
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+.image{
     display: block;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0%;
     width: 98%;
+
+}
+
+.product{
+    border-color: black;
 }
 
 .product_name{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    border-color: blue;
 }
