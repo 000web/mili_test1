@@ -27,7 +27,7 @@
 /* HTML AND BODY SPECIFICATIONS */
 html{
     border-color: white;
-    padding: 1px;
+    padding: 0px;
 }
 body{
     border-color: white;
@@ -50,7 +50,7 @@ body{
 }
 .product_description{
     /*border-color: chartreuse;*/
-    padding: 10px;
+    padding: 3px;
     font-size: 1rem;
 
 }
