@@ -28,6 +28,7 @@
 html{
     border-color: white;
     padding: 0px;
+    background-color: white;
 }
 body{
     border-color: white;
@@ -48,11 +49,17 @@ body{
     /*border-color: blue;*/
     padding: 20px;
 }
+.product_name2{
+    /*border-color: blue;*/
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
 .product_description{
     /*border-color: chartreuse;*/
     padding: 3px;
     font-size: 1rem;
-
 }
 .image{
     display: block;
@@ -96,59 +103,34 @@ table{
     background-color: #262626;
     box-shadow: 5px 5px 0.5px #808080;
 }
+.name_format2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+.name_format3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
 .price{
-    font-size: smaller;
+    font-size: small;
     color: #535353;
     font-weight: bold;
 }
 .bullet{
-    color: crimson;
+    color: rgb(255, 0, 51);
     font-weight: bold;
+    font-size: small;
 }
-
-
-
-
-
-
-
-
-
-/*
-.bold{
+.bullet2{
+    color: #262626;
     font-weight: bold;
+    font-size: large;
 }
 
-.bold_specification{
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
 
-.bold_price{
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: medium;
-}
 
-table.tab{
-    border-spacing: 0px 5px;
-    margin-top: 0px;
-}
 
-p.no_space{
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-*/
 
-/*
-table{
-    display: block;
-    margin-right: 1%;
-    margin-left: 1%;
-    width: 97%;
-}
-*/
+
 
